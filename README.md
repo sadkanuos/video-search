@@ -1,3 +1,25 @@
+# Video Search
+A video search app made for Udemy Course: Modern React with Redux. 
+
+This is a web page with a plain ui that takes user input and renders videos matching the search query entered. The videos are provided from youtube.com via the Youtube Data API v3. The videos fetched from the API are then displayed in a grid form.
+
+## Made Using 
+<img src="https://img.shields.io/badge/semantic%20ui%20react-35BDB2?style=for-the-badge&logo=semanticuireact&logoColor=white"> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+
+## App Design
+<img src="/assets/mockup.png">
+
+## Demo
+
+
+
+## Notes
++ The videos are fetched from YouTube Data API v3.
++ The grid rendering is achieved using semantic-ui.
++ The API requests are made using axios client.
++ The number of videos fetched at a time is kept to 6.
++ The search query output is handled by the YouTube's API.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
